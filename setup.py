@@ -6,13 +6,13 @@ _version = '0.1.0.%s' % int(time.time())
 _packages = find_packages(where='.')
 
 install_requires = [
-    'Django>=1.8,<1.9',
     'requests',
     'celery',
+    'nose',
 ]
 
 setup(
-    name='yellow.multimeter',
+    name='roundtwo',
     version=_version,
     description="A simple airplane router. For ground delays' sake.",
     author='Joao Figueiredo',
