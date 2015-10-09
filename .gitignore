@@ -1,0 +1,9 @@
+*.log
+*.pot
+*.pyc
+*.swp
+*.swo
+env/*
+*.DS_Store
+*.egg-info/*
+.ropeproject
