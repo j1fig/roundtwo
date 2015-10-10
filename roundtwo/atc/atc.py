@@ -6,11 +6,11 @@ Created on May 4, 2011
 
 import numpy as np
 
-from Aircraft import *
-from Node import *
-from Estimator import *
-from LogPlayer import *
-from Searcher import *
+from aircraft import Aircraft
+from node import node
+from estimator import Estimator
+from logplayer import LogPlayer
+from searcher import Searcher
 import settings
 
 
