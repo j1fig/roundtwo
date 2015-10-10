@@ -6,9 +6,13 @@ _version = '0.1.0.%s' % int(time.time())
 _packages = find_packages(where='.')
 
 install_requires = [
-    'requests',
-    'celery',
-    'nose',
+    'Django>=1.8,<1.9',
+    'dj-database-url==0.3.0',
+    'psycopg2==2.5.2',
+    'celery[redis]',
+    'raven',
+    'requests==2.7.0',
+    'geopy'
 ]
 
 setup(
