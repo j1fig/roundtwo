@@ -19,8 +19,8 @@ class Aircraft (models.Model):
                                      decimal_places=9,
                                      default=0)
     linear_speed = models.DecimalField(max_digits=20,
-                                decimal_places=10,
-                                default=0)
+                                       decimal_places=10,
+                                       default=0)
     heading = models.DecimalField(max_digits=10,
                                   decimal_places=3,
                                   default=0)
@@ -30,21 +30,22 @@ class Aircraft (models.Model):
                                     on_delete=models.SET_NULL,
                                     related_name='destination')
     course = models.ManyToManyField('optimo.Node')
-    taxi_speed = models.DecimalField(max_digits=20,
-                                decimal_places=10,
-                                default=7.71666667)
-    acceleration = models.DecimalField(max_digits=20,
-                                decimal_places=10,
-                                default=0)
+
 
 class Node (models.Model):
+    GATE = 'gate'
+    MOVE = 'move'
+    HOLD = 'hold'
+    DEPART = 'depart'
     NODE_TYPES = (
-        'gate',
-        'move',
-        'hold',
-        'depart'
+        (GATE, 'gate'),
+        (MOVE, 'move'),
+        (HOLD, 'hold'),
+        (DEPART, 'depart')
     )
-    type = models.CharField()
+    type = models.CharField(max_length=10,
+                            choices=NODE_TYPES,
+                            default=MOVE)
     latitude = models.DecimalField(max_digits=13,
                                    decimal_places=10,
                                    default=0)

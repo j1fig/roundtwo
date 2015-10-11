@@ -13,8 +13,9 @@
 
 <link rel="shortcut icon" href="{% static "optimo/img/favicon.ico" %}">
 
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,800,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 <link href="{% static "optimo/css/bootstrap.min.css" %}" rel="stylesheet">
+<link href="{% static "optimo/css/home.css" %}" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,7 +26,17 @@
 </head>
 <body>
 
-Oh hai
+<div class="container-fluid">
+  <div class="row base-container">
+    <div class="col-xs-1 title">
+      <img src="{% static 'optimo/img/plane.svg' %}" class="img-responsive" alt="plane-img">
+    </div>
+    <div class="col-xs-11 title">
+      <p>Round Two.</p>
+      <p>A simple airplane router. For ground delays' sake.</p>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

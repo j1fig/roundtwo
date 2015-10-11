@@ -1,0 +1,15 @@
+body {
+    font-family: 'Special Elite', cursive;
+    background-color: black;
+    color: white;
+}
+
+
+.base-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title {
+    margin-top: 2%;
+}

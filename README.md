@@ -14,3 +14,11 @@ A button to press and trigger optimal routing decision for each plane, for the c
 ## Architecture
 
 Periodic Celery service using flightradar24 API to insert current airplane status into the PostgreSQL db.
+
+
+## Reference
+
+Images used:
+
+[plane svg] (https://commons.wikimedia.org/wiki/File:Aircraft_Airport_ecomo.svg)
+[favicon] (https://commons.wikimedia.org/wiki/File:Icon-boxing-gloves.jpg)
