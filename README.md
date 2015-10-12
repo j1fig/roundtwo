@@ -13,7 +13,9 @@ A button to press and trigger optimal routing decision for each plane, for the c
 
 ## Architecture
 
+Django project for managing DB and simple one pager.
 Periodic Celery service using flightradar24 API to insert current airplane status into the PostgreSQL db.
+A Tornado web server to stream search results into the browser.
 
 
 ## Reference

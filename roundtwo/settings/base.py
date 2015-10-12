@@ -85,3 +85,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# Optimo App settings
+WARNING = False
+SEARCH_DEBUG = False
+SEARCH_ITER_DEBUG = False
+RUN_DEBUG = False
+HEURISTIC_DEBUG = False
+DYNAMICS_DEBUG = False
+PERFORMANCE_DEBUG = True
