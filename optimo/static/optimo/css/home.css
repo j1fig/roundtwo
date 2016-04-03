@@ -2,8 +2,12 @@ body {
     font-family: 'Special Elite', cursive;
     background-color: black;
     color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
-
 
 .base-container {
     padding-left: 5%;

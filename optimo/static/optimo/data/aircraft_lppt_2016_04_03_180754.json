@@ -1,0 +1,22 @@
+{
+  'UA835': {
+    'aircraft_model': 'B737',
+    'previous_node': 59,
+    'next_node': 24,
+    'percent': 0.4,
+    'speed': 0.0,
+    'heading': 0.0,
+    'command': 1,
+    'destination': 3
+  },
+  'TP123': {
+    'aircraft_model': 'A321',
+    'previous_node': 1,
+    'next_node': 7,
+    'percent': 0.1,
+    'speed': 0.0,
+    'heading': 0.0,
+    'command': 1,
+    'destination': 58
+  },
+}
