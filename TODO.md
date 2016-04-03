@@ -4,3 +4,5 @@ aircraft_[airport_code]_[timestamp].json contains all information regarding curr
 optimo will have a view, acccepting a json file with airport description.
 
 optimo will have a view, accepting a json file with current aircraft description.
+
+data will be stored via NoSQL DB (use Mongo for a go at it), with per session data.
